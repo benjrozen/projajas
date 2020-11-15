@@ -1,0 +1,9 @@
+module.exports = HomePage;
+
+  function HomePage(){
+
+    this.searchBar = element(by.css(".search-input"));
+    this.magnifier = element(by.css(".magnifier"));
+    this.menu = element(by.css(".menu-bars"));
+    this.menuStrains = element(by.css(".strains"));
+  }
